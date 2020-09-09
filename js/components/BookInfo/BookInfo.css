@@ -1,0 +1,59 @@
+.book-info {
+  margin-bottom: 5rem;
+  z-index: 2000;
+  position: relative;
+}
+
+.book-basic {
+  display: flex;
+  text-align: center;
+}
+
+.book-basic-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewerImg {
+  display: none;
+}
+
+@media (min-width: 830px) {
+  .chosen-titles {
+    left: 10%;
+    right: 10%;
+  }
+
+  .reviewerImg {
+    display: block;
+  }
+}
+
+@media (min-width: 1080px) {
+  .book-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .review {
+    width: 50%;
+  }
+
+  .book-basic {
+    display: block;
+    width: 40%;
+  }
+
+  .book-basic-data {
+    margin-top: 2rem;
+  }
+}

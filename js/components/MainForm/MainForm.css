@@ -1,0 +1,56 @@
+.main-form {
+  padding: 1rem;
+  position: relative;
+}
+
+.main-form div {
+  align-items: center;
+}
+
+.genre-container {
+  display: grid;
+}
+
+@media (min-width: 600px) {
+  .genre-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 950px) {
+  .genre-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1100px) {
+  .genre-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1470px) {
+  .genre-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.genre-container div {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  width: 20rem;
+}
+
+.main-form p {
+  margin: 2rem 0 0.5rem 0;
+}
+
+.main-form label {
+  white-space: nowrap;
+  width: 90%;
+  margin: 0 0.3rem;
+}
+
+.form-preference {
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+.chosen-titles {
+  position: fixed;
+  left: 5%;
+  right: 5%;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 2.5rem;
+  background: white;
+  -webkit-box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  z-index: 2000;
+  overflow: auto;
+}
+
+.main-loader {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s linear;
+  z-index: 3000;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  top: 70%;
+}
